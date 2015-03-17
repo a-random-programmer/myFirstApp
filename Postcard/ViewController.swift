@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    //BUTTONS GALORE!!!
+    //BUTTONS GALORE
     
     @IBAction func labelRed(sender: AnyObject) {
         colorLabel.textColor = UIColor.redColor()
