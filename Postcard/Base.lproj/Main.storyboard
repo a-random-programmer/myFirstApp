@@ -26,17 +26,31 @@
                                     <rect key="frame" x="136" y="63" width="128" height="94"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIt-tr-Flb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZA-rl-VWx">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Change label text/background to green!">
-                                    <color key="titleColor" red="0.0" green="1" blue="0.00068939877131901639" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Change label text/background to red!">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.030145655374868241" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="333" width="297" height="30"/>
+                                    <rect key="frame" x="23" y="219" width="297" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="labelGreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C10-Y3-ufO"/>
+                                    <action selector="labelRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uGr-hN-vgK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRP-lZ-gZI">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Change label text/background to orange!">
+                                    <color key="titleColor" red="1" green="0.65059188164578141" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="23" y="257" width="296" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="labelOrange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w8r-HG-AHs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7A6-cG-gPS">
@@ -52,40 +66,19 @@
                                     <action selector="labelYellow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JfA-f5-TaJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZA-rl-VWx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIt-tr-Flb">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="Change label text/background to red!">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.030145655374868241" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Change label text/background to green!">
+                                    <color key="titleColor" red="0.0" green="1" blue="0.00068939877131901639" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="219" width="259" height="30"/>
+                                    <rect key="frame" x="23" y="333" width="297" height="30"/>
                                 </variation>
                                 <connections>
-                                    <action selector="labelRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uGr-hN-vgK"/>
+                                    <action selector="labelGreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C10-Y3-ufO"/>
                                 </connections>
                             </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Dra-QM-0sK">
-                                <rect key="frame" x="-25" y="-15" width="51" height="31"/>
-                                <color key="onTintColor" red="0.13725490196078433" green="1" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="328" y="334" width="51" height="31"/>
-                                </variation>
-                                <connections>
-                                    <action selector="switchGreen:" destination="BYZ-38-t0r" eventType="valueChanged" id="4WM-tq-dvE"/>
-                                </connections>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ECV-PO-HKW">
-                                <rect key="frame" x="-25" y="-15" width="51" height="31"/>
-                                <color key="onTintColor" red="0.93725490196078431" green="0.91764705882352937" blue="0.039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="328" y="295" width="51" height="31"/>
-                                </variation>
-                                <connections>
-                                    <action selector="switchYellow:" destination="BYZ-38-t0r" eventType="valueChanged" id="o6l-Pi-UOb"/>
-                                </connections>
-                            </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="E3N-kd-pqF">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>
                                 <color key="onTintColor" red="1" green="0.0" blue="0.03014565537" alpha="1" colorSpace="calibratedRGB"/>
@@ -106,45 +99,52 @@
                                     <action selector="switchOrange:" destination="BYZ-38-t0r" eventType="valueChanged" id="qe2-J8-QSn"/>
                                 </connections>
                             </switch>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRP-lZ-gZI">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Change label text/background to orange!">
-                                    <color key="titleColor" red="1" green="0.65059188164578141" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ECV-PO-HKW">
+                                <rect key="frame" x="-25" y="-15" width="51" height="31"/>
+                                <color key="onTintColor" red="0.93725490196078431" green="0.91764705882352937" blue="0.039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="257" width="296" height="30"/>
+                                    <rect key="frame" x="328" y="295" width="51" height="31"/>
                                 </variation>
                                 <connections>
-                                    <action selector="labelOrange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w8r-HG-AHs"/>
+                                    <action selector="switchYellow:" destination="BYZ-38-t0r" eventType="valueChanged" id="o6l-Pi-UOb"/>
                                 </connections>
-                            </button>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Dra-QM-0sK">
+                                <rect key="frame" x="-25" y="-15" width="51" height="31"/>
+                                <color key="onTintColor" red="0.13725490196078433" green="1" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="328" y="334" width="51" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchGreen:" destination="BYZ-38-t0r" eventType="valueChanged" id="4WM-tq-dvE"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="ks6-gK-Ggx"/>
-                                <exclude reference="gIt-tr-Flb"/>
-                                <exclude reference="7A6-cG-gPS"/>
                                 <exclude reference="GZA-rl-VWx"/>
-                                <exclude reference="Dra-QM-0sK"/>
-                                <exclude reference="ECV-PO-HKW"/>
+                                <exclude reference="rRP-lZ-gZI"/>
+                                <exclude reference="7A6-cG-gPS"/>
+                                <exclude reference="gIt-tr-Flb"/>
                                 <exclude reference="E3N-kd-pqF"/>
                                 <exclude reference="vw0-SX-mhs"/>
-                                <exclude reference="rRP-lZ-gZI"/>
+                                <exclude reference="ECV-PO-HKW"/>
+                                <exclude reference="Dra-QM-0sK"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="ks6-gK-Ggx"/>
-                                <include reference="gIt-tr-Flb"/>
-                                <include reference="7A6-cG-gPS"/>
                                 <include reference="GZA-rl-VWx"/>
-                                <include reference="Dra-QM-0sK"/>
-                                <include reference="ECV-PO-HKW"/>
+                                <include reference="rRP-lZ-gZI"/>
+                                <include reference="7A6-cG-gPS"/>
+                                <include reference="gIt-tr-Flb"/>
                                 <include reference="E3N-kd-pqF"/>
                                 <include reference="vw0-SX-mhs"/>
-                                <include reference="rRP-lZ-gZI"/>
+                                <include reference="ECV-PO-HKW"/>
+                                <include reference="Dra-QM-0sK"/>
                             </mask>
                         </variation>
                     </view>

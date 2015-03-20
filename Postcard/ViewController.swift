@@ -54,8 +54,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func switchGreen(sender: AnyObject) {
-        colorLabel.backgroundColor = UIColor.greenColor()
+        colorLabel.text = ian
     }
 }
 
-// TEST TEST TEST
+
+var ian = "Ian, NO!"
